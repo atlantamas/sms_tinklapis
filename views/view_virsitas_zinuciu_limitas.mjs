@@ -40,7 +40,7 @@ const view_virsitas_zinuciu_limitas = function()
         </style>
     </head>
     <body>
-        <form>
+    <form method="get" action="/">
             <span>virsitas zinuciu limitas</span>
             <input type="submit">
         </form>

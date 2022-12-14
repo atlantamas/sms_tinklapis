@@ -40,7 +40,7 @@ return`<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <form>
+<form  method="get"  action="/">
         <span>vartotojo tel nr neteisingas</span>
         <input type="submit">
     </form>

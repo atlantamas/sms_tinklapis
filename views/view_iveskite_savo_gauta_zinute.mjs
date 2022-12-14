@@ -1,4 +1,4 @@
-const view_iveskite_gauta_zinute = function()
+const view_iveskite_savo_gauta_zinute = function()
 {
 return`<!DOCTYPE html>
 <html lang="en">
@@ -48,4 +48,4 @@ return`<!DOCTYPE html>
 </body>
 </html>`
 }
-export default view_iveskite_gauta_zinute
+export default view_iveskite_savo_gauta_zinute

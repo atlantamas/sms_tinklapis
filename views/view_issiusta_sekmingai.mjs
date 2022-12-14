@@ -40,7 +40,7 @@ const view_issiusta_sekmingai = function ()
     </style>
 </head>
 <body>
-<form>
+<form  method="get"  action="/">
 <span>issiusta sekmingai</span>
 <input type="submit">
 </form>
