@@ -30,7 +30,7 @@ const controller_handle_form_iveskite_savo_tel_nr = function (req, res)
 
     //to do siusti zinute su kodu 
 
-    //service_send_sms(req.body.tel_nr, generate_random_string(4))
+    service_send_sms(req.body.tel_nr, generate_random_string(4))
 
     const html = view_iveskite_savo_gauta_zinute()
     res.write(html)

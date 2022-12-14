@@ -39,9 +39,9 @@ return`<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <form>
+<form method="post" action="/iveskite_zinuteje_gauta_koda">
         <span>iveskite savo gauta zinute</span>
-        <input type="number" name="iveskite_savo_gauta_zinute">
+        <input type="text" name="iveskite_savo_gauta_zinute">
         <input type="submit">
 </form>
     
