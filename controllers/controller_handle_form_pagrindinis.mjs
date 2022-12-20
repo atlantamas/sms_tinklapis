@@ -15,9 +15,7 @@ const controller_handle_form_pagrindinis = function (req, res)
         res.write(html)
         res.end()
         return
-
     }
-
 
     if (regexp_zinute.test(req.body.zinute) === false)
     {
@@ -31,8 +29,6 @@ const controller_handle_form_pagrindinis = function (req, res)
     const html = view_iveskite_savo_tel_nr()
     res.write(html)
     res.end()
-    return
-
-
 }
+
 export default controller_handle_form_pagrindinis
